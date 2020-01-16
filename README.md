@@ -9,7 +9,9 @@ After reviewing options like lane-detection with Hough transformation and an app
 
 First off I started as all the other approaches by simply cropping the region of our interest and the color segmentation.
 
-![Text,try](https://github.com/HartP97/Lane-Detection/blob/master/ReadmeImages/crop_and_segment.png)
+![crop_and_segment_image](https://github.com/HartP97/Lane-Detection/blob/master/ReadmeImages/crop_and_segment.png)
 
+To get a better idea of what I was dealing with, I started outwriting the first 10 frames of the video as images. This was when I realized that the white lines are moving from top to bottom of continues frames. So I came up with the idea to overlap the mask of consecutive frames to receive a continues line like shown in the following image:
 
-It took a while to come up with something new and first I tried to draw white connections in the mask to receive a continues line like the following:
+[To be continued...]
+
