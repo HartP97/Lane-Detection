@@ -65,7 +65,7 @@ The final result of the process that I applied worked pretty well for what we ac
 
 ### Running the program
 
-- safe the python-files and the input-video in one folder
+- save the python-files and the input-video in one folder
 - open up your console
 - switch to the folder directory
 - program can now be started with the command: $python3 lane_detection_MAIN.py or python3 lane_detection_MAIN.py. (It's also possible to run it using IDE's like PyCharm)
